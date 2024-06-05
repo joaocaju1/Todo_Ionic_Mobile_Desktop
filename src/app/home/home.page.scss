@@ -1,0 +1,27 @@
+ion-item {
+  --border-color: transparent;
+}
+
+ion-checkbox {
+  --color: var(--ion-color-primary);
+  --padding-start: 6px;
+}
+
+ion-button {
+  --background: var(--ion-color-primary);
+  --color: #fff;
+  --border-radius: 20px;
+}
+
+ion-button.delete-button {
+  --background: var(--ion-color-danger);
+  --min-width: 36px;
+  --min-height: 36px;
+}
+
+ion-item ion-input {
+  --padding-start: 10px;
+  --padding-end: 10px;
+  --padding-top: 5px;
+  --padding-bottom: 5px;
+}
